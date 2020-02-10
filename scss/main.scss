@@ -1,0 +1,11 @@
+// Imports all SCSS files for compiling
+
+@import "abstracts/variables";
+
+@import "base/base";
+
+@import "components/navbar";
+@import "components/video-suggestion";
+
+@import "sections/main-content";
+@import "sections/suggested-videos";
