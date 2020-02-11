@@ -1,0 +1,7 @@
+@mixin border-shadow-bottom {
+    box-shadow: 0 .5px 0 $gray-light;
+}
+
+@mixin border-shadow-bottom-dark {
+    box-shadow: 0 .5px 0 $gray-primary;
+}

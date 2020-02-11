@@ -15,6 +15,7 @@ header {
     z-index: 100;
     // box-sizing: border-box;
     width: 100vw;
+    min-width: 1000px;
     height: 56px;
     background-color: $black-light;
     display: flex;

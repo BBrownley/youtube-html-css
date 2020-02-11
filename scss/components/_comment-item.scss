@@ -1,0 +1,23 @@
+.comment-item {
+   // background-color: $test-bkg-red;
+   display: flex;
+   margin-bottom: 20px;
+    .image-container {
+        //background-color: $test-bkg-blue;
+        align-self: flex-start;
+    }
+    .comment-content {
+        //background-color: $test-bkg-green;
+        margin-left: 20px;
+        .user-info {
+            margin-bottom: 5px;
+            span {
+                color: $gray-light;
+            }
+        }
+        .user-comment {
+            max-width: 105ch;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.image-container {
+    display: inline-block;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 50px;
+    min-width: 50px;
+    position: relative;
+    img {
+        height: 52px;
+        position: absolute;
+        left: -.6px;
+        top: -.75px;
+    }
+}
